@@ -23,7 +23,6 @@ const Footer = () => {
                     </div>
                     <div className="footer-text-wrapper-right">
                         <h2>Apply for maintainership</h2>
-                        {/* todo: pointer style */}
                         <p onClick={() => window.open(maintainershipLink)}>{ maintainershipLink }</p>
                         <h2 className='additional-links'>Dont trust the links? xd</h2>
                         <h4>Source</h4>

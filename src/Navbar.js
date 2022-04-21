@@ -25,8 +25,8 @@ const Navbar = () => {
                     <ul>
                         <Link smooth to="#intro" className='li'>Home</Link>
                         <Link smooth to="#feature" className='li'>About</Link>
-                        <Link smooth to="#team" className='li'>Team</Link>
                         <Link smooth to="#stats" className='li'>Stats</Link>
+                        <Link smooth to="#team" className='li'>Team</Link>
                         <Link smooth to="" className='li' onClick={() => setIsModalOpen(true)}>Download</Link>
                     </ul>
                 </div>
@@ -40,8 +40,8 @@ const Navbar = () => {
                     <div className={ !isOpen ? `dropdown-menu-btn` : `dropdown-menu-btn active`}>
                         <Link smooth to="#intro" className='dropdown-li' onClick={ () => console.log('foo') }>Home</Link>
                         <Link smooth to="#feature" className='dropdown-li'>About</Link>
-                        <Link smooth to="#team" className='dropdown-li'>Team</Link>
                         <Link smooth to="#stats" className='dropdown-li'>Stats</Link>
+                        <Link smooth to="#team" className='dropdown-li'>Team</Link>
                         <Link smooth to="" className='dropdown-li' onClick={() => setIsModalOpen(true)}>Download</Link>
                     </div>
                 </div>

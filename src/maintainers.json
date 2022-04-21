@@ -1,0 +1,148 @@
+{
+    "maintainers":[
+        {
+            "maintainer": "iaiaian1",
+            "codename":"mi439",
+            "device": "mi439",
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fmi439.jpg?alt=media&token=aa8aa9cf-e045-4416-9083-c47a83d0e884"
+        },
+        {
+            "maintainer": "frostg012 & whyyraku",
+            "codename": "juice",
+            "device": "Poco M3/Redmi 9t",
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fjuice.jpg?alt=media&token=7091bf19-4e07-4571-b7be-e4f1472e65d2"
+        },
+        {
+            "maintainer": "TheStrechh",
+            "codename": "surya",
+            "device": "Poco X3 NFC",
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fsurya.jpg?alt=media&token=3469eb4d-75eb-4dfe-ad0f-c25a41e43149"
+        },
+        {
+            "maintainer": "JojiOnThatBeat",
+            "codename": "lavender",
+            "device": "Xiaomi Redmi Note 7/7s",
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Flavender.jpg?alt=media&token=8773a11f-9ddf-4780-96f8-46d4c8ca6fc0"
+        },
+        {
+            "maintainer": "blur2003",
+            "codename": "mohito",
+            "device": "Xiaomi Redmi Note 10",
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fmohito.jpg?alt=media&token=5f6ccf9e-99c4-4af2-b36a-b9d57a0de354"
+        },
+        {
+            "maintainer": "Sharma_G04",
+            "codename": "pocox2", 
+            "device": "Poco X2", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fpocox2.jpg?alt=media&token=d36824f7-5672-4b7d-8152-d02516d84655"
+        },
+        {
+            "maintainer": "Alone0316 & Vastolorde", 
+            "codename": "mido", 
+            "device": "Xiaomi Redmi Note 4x", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fmido.jpg?alt=media&token=14036a7d-7246-4d71-b1d8-555693aaad6d"
+        },
+        {
+            "maintainer": "Hari HK", 
+            "codename": "sweet", 
+            "device": "Xiaomi Redmi Note 10 Pro", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fsweet.jpg?alt=media&token=55171e96-ee34-438d-87c2-aae0dbbade54"
+        },
+        {
+            "maintainer": "Sir Johnny", 
+            "codename": "note7pro", 
+            "device": "Xiaomi Redmi Note 7 Pro", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fnote7pro.jpg?alt=media&token=7d6b3b92-b7fb-492f-a4b7-a7ead452280e"
+        },
+        {
+            "maintainer": "♪ rasend", 
+            "codename": "ginkgo", 
+            "device": "Xiaomi Redmi Note 8", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fginkgo.jpg?alt=media&token=af1b74ea-82d9-44cf-84c8-50a06d0c8b66"
+        },
+        {
+            "maintainer": "HaSSan_MoHi", 
+            "codename": "miatoll", 
+            "device": "Xiaomi Redmi Note 9s/9 Pro/9 Pro Max/10 Lite/Poco M2 Pro", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fmiatoll.jpg?alt=media&token=1bc9d4e5-e20f-43ec-aeba-fdf0a547d124"
+        },
+        {
+            "maintainer": "blazerpaul15", 
+            "codename": "begonia", 
+            "device": "Xiaomi Redmi Note 8 Pro", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fbegonia.jpg?alt=media&token=291d290d-e51d-4a1b-9466-57efad809566"
+        },
+        {
+            "maintainer": "Naveen4264", 
+            "codename": "asusm1", 
+            "device": "Asus Zenfone Max Pro M1", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fasusm1.jpg?alt=media&token=92243e49-4ed1-4411-a74e-636d8dd6b063"
+        },
+        {
+            "maintainer": "xisan", 
+            "codename": "pocof1", 
+            "device": "Poco F1", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fpocof1.jpg?alt=media&token=9c51d59f-ac59-46c1-899b-01a94498e984"
+        },
+        {
+            "maintainer": "LaLeeroy", 
+            "codename": "ugglite", 
+            "device": "Xiaomi Redmi Note 5A Prime/Lite", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fugglite.jpg?alt=media&token=73cbf07e-4d94-4b73-998c-f46cd4ac0906"
+        },
+        {
+            "maintainer": "Eidoron1", 
+            "codename": "alioth", 
+            "device": "Xiaomi Poco F3/Redmi K40/Mi 11X", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Falioth.jpg?alt=media&token=eb012085-ac20-4f67-a46e-14fb6761b303"
+        },
+        {
+            "maintainer": "Soumyou and lalalisa", 
+            "codename": "oneplus8t9r", 
+            "device": "Oneplus 8T/9R", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Foneplus8t9r.jpg?alt=media&token=d28bbebd-c745-4ccb-9e20-443393ea6a72"
+        },
+        {
+            "maintainer": "Realizeyes", 
+            "codename": "apollo", 
+            "device": "Xiaomi Mi10T/Pro", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fapollo.jpg?alt=media&token=bd2777a2-e019-49e8-adb8-0f3abb61afbf"
+        },
+        {
+            "maintainer": "Irongfly", 
+            "codename": "raphael", 
+            "device": "Xiaomi Redmi K20/Mi 9t Pro", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fraphael.png?alt=media&token=7f5bf65e-0191-4301-aac5-a96d67966a6a"
+        },
+        {
+            "maintainer": "dhruvesh_23", 
+            "codename": "realmext", 
+            "device": "Realme XT", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Frealmext.jpg?alt=media&token=e3e62de1-989c-4419-88be-5215297d1fc6"
+        },
+        {
+            "maintainer": "gustadev", 
+            "codename": "mi8lite", 
+            "device": "Xiaomi Mi 8 Lite", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fmi8lite.png?alt=media&token=12812dcf-ca5c-492e-bd7a-660a773d2142"
+        },
+        {
+            "maintainer": "HsyHusker", 
+            "codename": "lenovoz5s", 
+            "device": "Lenovo Z5s (jd2019)", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Flenovoz5s.jpg?alt=media&token=cdb8161f-e428-4e5c-b30f-f4001030f6a0"
+        },
+        {
+            "maintainer": "EvilAnsh", 
+            "codename": "santoni", 
+            "device": "Redmi 4 (4x)", 
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Fsantoni.jpg?alt=media&token=b84ecffd-1796-4e15-89a6-2fdda1856382"
+        },
+        {
+            "maintainer": "SUICIDAL_BOI",
+            "codename": "rmx2170",
+            "device": "Realme 7 Pro",
+            "img": "https://firebasestorage.googleapis.com/v0/b/arcana-9ba75.appspot.com/o/images%2Frmx2170.jpg?alt=media&token=26aea6b4-3af3-4209-ae72-eac8e546cb4f"
+        }
+    ]
+}

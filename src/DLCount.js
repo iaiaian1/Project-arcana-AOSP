@@ -1,12 +1,10 @@
 import { useEffect, useState } from "react";
-import Firebase from './Firebase';
+import maintainers from './maintainers.json';
 
 const DLCount = () => {
 
     //SOURCEFORGE
     const [sourceforge, setSourceforge] = useState();
-    //Firebase
-    const [maintainers, setMaintainers] = useState([]);
 
     function updateSourceforge(){
         //Set the date so it would be latest no matter what.
@@ -17,16 +15,16 @@ const DLCount = () => {
 
         //Fetch data from sourceforge API
         // fetch('https://sourceforge.net/projects/project-arcana-releases/files/stats/json?start_date=2021-10-29&end_date=2022-04-16')
-        fetch(`${process.env.REACT_APP_SF}?start_date=2021-10-29&end_date=${year}-${month}-${day}`)
+        fetch(`https://sourceforge.net/projects/project-arcana-releases/files/stats/json?start_date=2021-10-29&end_date=${year}-${month}-${day}`)
             .then(res => {return res.json()})
             .then(data => {setSourceforge(data)})
     }
 
     function totalCalculator(x){
         let total = [];
-        x.map(element => {
+        x.map(element => (
             total.push(element[1])
-        });
+        ));
         return total.reduce((x, y) => x + y, 0).toLocaleString();
     }
 
@@ -38,7 +36,6 @@ const DLCount = () => {
         <>
             <h1 className='component-h1' id="stats">Stats</h1>
             <div className="download-count-wrapper" id="DLCount">
-                <Firebase state={ setMaintainers }/> {/* Call the firebase function and pass the useState or array*/}
                 <div className="download-upper-section">
                     <div className="download-countries">
                         <h1>Top countries by downloads</h1>
@@ -50,12 +47,12 @@ const DLCount = () => {
                     <div className="download-supported-devices">
                         <h1>Supported devices</h1>
                         <h4>Arcana running devices</h4>
-                        {maintainers && <h2 className="download-highlight">{ maintainers.length }</h2>}
+                        <h2 className="download-highlight">{ maintainers.maintainers.length }</h2>
                     </div>
                     <div className="download-maintainer-count">
                         <h1>Arcana magicians</h1>
                         <h4>Maintainer count</h4>
-                        {maintainers && <h2 className="download-highlight">{ maintainers.length }</h2>}
+                        <h2 className="download-highlight">{ maintainers.maintainers.length }</h2>
                     </div>
                 </div>
                 <div className="download-count">

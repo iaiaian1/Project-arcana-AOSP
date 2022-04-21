@@ -5,6 +5,7 @@ import Feature from './Feature';
 import Carousel from './Carousel';
 import DLCount from './DLCount';
 import Team from './Team';
+import DownloadModal from "./DownloadModal";
 // import { scroller } from './Scroll';
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <Intro/>
             <Feature/>
             <Carousel/>
+            <DownloadModal/>
             <DLCount/>
             <Team/>
             <Footer/>
