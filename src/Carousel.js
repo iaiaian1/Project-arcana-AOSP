@@ -31,7 +31,7 @@ import 'swiper/css/effect-coverflow';
 
 
 const Carousel = () => {
-    // const swipeSlides = <img src={ swipe } alt="" style={ {height: "50vh", zIndex: "1"} }/>
+    // const swipeSlides = <img src={ swipe } alt="" className="swiperslide-img"/>
 
     return ( 
       <>
@@ -44,48 +44,56 @@ const Carousel = () => {
               autoplay = { {delay: 2000, disableOnInteraction: false, pauseOnMouseEnter: true} }
               pagination = { {dynamicBullets: true} }
               breakpoints={{
-                260: {
+                300: {
                   slidesPerView: 2,
                   spaceBetween: 10
                 },
-                480: {
+                400: {
+                  slidesPerView: 3,
+                  spaceBetween: 10
+                },
+                490: {
                   slidesPerView: 3,
                   spaceBetween: 10
                 },
                 560: {
                   slidesPerView: 3,
-                  spaceBetween: 5
+                  spaceBetween: 10
+                },
+                600: {
+                  slidesPerView: 3,
+                  spaceBetween: 30
                 },
                 720: {
-                  slidesPerView: 5,
-                  spaceBetween: 15
+                  slidesPerView: 4,
+                  spaceBetween: 1
                 },
                 1280: {
                   slidesPerView: 7,
-                  spaceBetween: 15
+                  spaceBetween: -10
                 },
               }}
               >
-          <SwiperSlide><img src={ swipe1 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe2 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe3 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe4 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe5 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe6 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe7 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe8 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe9 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe10 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe11 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe12 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe13 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe14 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe15 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe16 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe17 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe18 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe19 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
-          <SwiperSlide><img src={ swipe20 } alt="" style={ {height: "50vh", zIndex: "1"} }/></SwiperSlide>
+          <SwiperSlide><img src={ swipe1 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe2 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe3 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe4 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe5 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe6 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe7 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe8 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe9 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe10 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe11 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe12 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe13 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe14 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe15 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe16 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe17 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe18 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe19 } alt="" className="swiperslide-img"/></SwiperSlide>
+          <SwiperSlide><img src={ swipe20 } alt="" className="swiperslide-img"/></SwiperSlide>
         </Swiper>
       </>
      );

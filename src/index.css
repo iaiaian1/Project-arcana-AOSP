@@ -33,8 +33,8 @@
     --six: #F9F871;
 }
 .component-h1{
-    font-size: 4rem;
     text-align: center;
+    font-size: 3rem;
     background-color: var(--blood);
     color: var(--dirtywhite);
     text-decoration: underline;
@@ -99,7 +99,7 @@ body{
     pointer-events: none;
 }
 .dropdown-li{
-    color: var(--dirtywhite);
+    color: var(--six);
     display: block;
     text-align: right;
     font-size: 2rem;
@@ -181,9 +181,9 @@ body{
 .swiper-slide{
    padding: 3rem 0;
 }
-.transformEL{
-    background-color: blue;
-    height: 1rem;
+.swiperslide-img{
+    height: 30rem;
+    z-index: 1;
 }
 
 .download-count-wrapper{
@@ -476,12 +476,30 @@ body{
        padding-bottom: 1rem;
    }
    .footer-banner{
-       height: 10rem;
-       width: 25rem;
+       height: 7rem;
+       width: 18rem;
    }
+   .download-highlight{
+    font-size: 3rem;
+    }
+   .component-h1, .component-h1-modal{
+       font-size: 2rem;
+   }
+   .swiperslide-img{
+    height: 25rem;
+    }
+}
+@media (max-width: 500px){
+    .swiperslide-img{
+        height: 20rem;
+    }
 }
 @media (max-width: 350px){
     .dropdown-li{
         font-size: 1.5rem;
+    }
+    .footer-banner{
+        height: 5rem;
+        width: 13rem;
     }
 }
