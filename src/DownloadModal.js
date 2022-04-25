@@ -22,7 +22,7 @@ const DownloadModal = ({ open, onClose }) => {
                         <img src={info.img} alt="" id="myimg" className="device-img"/>
                         <h4 className="device-name">{ info.device }</h4>
                         <p className="device-maintainer">By: { info.maintainer }</p>
-                        <button className="download-button" onClick={ () => window.open('https://sourceforge.net/projects/project-arcana-releases/files/')}><img src={download} alt="" />Download</button>
+                        <button className="download-button" onClick={ () => window.open(`https://sourceforge.net/projects/project-arcana-releases/files/${info.version}/${info.codename}`)}><img src={download} alt="" />Download</button>
                     </div>
                 )}
                 <button onClick={onClose} className="modal-button"> <strong>Close</strong></button>
